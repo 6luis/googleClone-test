@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #202124;
+}
+.images {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.baller {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 888;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.nav {
+  display: flex;
+}
+.nav a {
+  color: white;
+  margin-left: 20px;
+}
+.imagens:hover {
+  text-decoration: underline;
+}
+.gmail:hover {
+  text-decoration: underline;
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.gmail,
+.imagens {
+  font-size: 12px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 65vh;
+  flex-direction: column;
+}
+.google {
+  width: auto;
+  height: 150px;
+}
+.search {
+  width: 580px;
+  height: 45px;
+  background: #202124;
+  border: 0.5px solid rgba(255, 255, 255, 0.365);
+  border-radius: 30px;
+  margin-top: -65px;
+}
+.search:hover {
+  width: 580px;
+  height: 45px;
+  background: #303134;
+  border: 0.5px solid #303134;
+  filter: drop-shadow(123px 123px 10px rgb(#801212));
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 25vh;
+  flex-direction: column;
+}
+.g1 {
+  width: auto;
+  height: 30px;
+}
